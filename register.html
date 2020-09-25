@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beaudei - Registration</title>
+    <link rel="stylesheet" href="css/styleRegisterPage.css">
+</head>
+
+<body>
+    <div class="page-wrapper background topPosition bottomPosition font">
+        <div class="wrapper">
+            <marquee behavior="scroll" direction="left">
+                <h3>
+                    Our Delivery Fee is Free Regardless of Any Minimum Transaction
+                </h3>
+            </marquee>
+            <div class="box">
+                <div class="box-body">
+                    <h2 class="title">Registration Form</h2>
+                    <div class="row">
+                        <div class="textBox">
+                            <div class="input-group">
+                                <label class="label">name</label>
+                                <input class="textArea" type="text" name="fullname" id="fullname">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="textBox">
+                            <div class="input-group">
+                                <label class="label">password</label>
+                                <div class="input-group-icon">
+                                    <input class="textArea js-datepicker" type="password" name="password" id="password">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="textBox">
+                            <div class="input-group">
+                                <label class="label">Gender</label>
+                                <div class="genderPosition">
+                                    <label class="radio-container">Male
+                                        <input type="radio" name="gender" id="male">
+                                        <span class="checkmark"></span>
+                                    </label>
+                                    <label class="radio-container">Female
+                                        <input type="radio" name="gender" id="female">
+                                        <span class="checkmark"></span>
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="textBox">
+                            <div class="input-group">
+                                <label class="label">Email</label>
+                                <input class="textArea" type="email" name="email" id="email">
+                            </div>
+                        </div>
+                        <div class="textBox">
+                            <div class="input-group">
+                                <label class="label">Phone Number</label>
+                                <input class="textArea" type="text" name="phone" id="phone">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="textBox">
+                            <div class="input-group">
+                                <label class="label">address</label>
+                                <input class="textArea" type="text" name="address" id="address">
+                            </div>
+                        </div>
+                        <div class="textBox">
+                            <div class="input-group">
+                                <label class="label">Skin Type</label>
+                                <input class="textArea" type="text" name="skinType" id="skinType">
+                            </div>
+                        </div>
+                    </div>
+                    <label class="container">I Agree to the Term and Conditions
+                        <input type="checkbox" id="aggrement">
+                        <span class="checkmark"></span>
+                    </label>
+                    <br>
+                    <div class="p-t-15">
+                        <button class="btn btn--radius-2 btn--blue" type="submit"
+                            onclick="registerValidation();">Submit</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script type="text/javascript" src="js/register.js"></script>
+
+</html>
